@@ -1,0 +1,12 @@
+.class-Sucess{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.class-Danger{
+    color: red;
+}
+
+.class-Primary{
+    background-color: green;
+}

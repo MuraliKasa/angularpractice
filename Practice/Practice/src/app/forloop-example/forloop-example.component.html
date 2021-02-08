@@ -1,0 +1,20 @@
+<p>forloop-example works!</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Names</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let per of PersonList; let even = even; let odd = odd" [ngClass] =" {odd:odd,even:even}">
+            <td>
+                {{per}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngFor = "let p of PersonList">
+   <b> {{p}} </b>
+</p>

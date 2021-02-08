@@ -1,0 +1,19 @@
+<p>employee-data works!</p>
+<div class="container-fluid">
+<table class="table table-border;table table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of emp">
+            <td>{{emp.id}}</td>
+            <td>{{emp.Name}}</td>
+            <td>{{emp.age}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

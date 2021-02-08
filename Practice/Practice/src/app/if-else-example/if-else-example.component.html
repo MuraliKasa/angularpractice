@@ -1,0 +1,7 @@
+<p>if-else-example works!</p>
+
+<p *ngIf="ShowName; else hideName" style="color: burlywood;" [ngClass]="Styles">Murali Krishna Kasa</p>
+
+<ng-template #hideName>
+    <p>Name is hidden </p>
+</ng-template>
